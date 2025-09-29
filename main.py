@@ -7,7 +7,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.utils import to_categorical
 
-people_dataset = r'D:\Work\Projects\AI\face_recognitio(CNN)\people'
+people_dataset = ""
 names = os.listdir(people_dataset)
 people_names = []
 people_images_paths = []
@@ -90,4 +90,5 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
 
